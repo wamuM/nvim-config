@@ -18,7 +18,7 @@ return{{
     vim.keymap.set("n","<leader>ff",function()
         require("telescope.builtin").find_files()
     end, {desc="Find Files"})
-    vim.keymap.set("n","<leader>en",function()
+    vim.keymap.set("n","<leader>ne",function()
         require("telescope.builtin").find_files({
             cwd = vim.fn.stdpath("config")
         })

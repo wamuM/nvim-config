@@ -25,4 +25,7 @@ vim.opt.clipboard = "unnamedplus"
 -- Remove highlighting if escaping in normalmode 
 vim.keymap.set("n", "<esc>", function() vim.cmd('nohlsearch') end, { noremap=true, silent = true })
 
-
+-- Restart nvim keybind
+vim.keymap.set("n", "<leader>nr", "<cmd>restart<cr>", {
+  desc = "Restart Neovim",
+})
