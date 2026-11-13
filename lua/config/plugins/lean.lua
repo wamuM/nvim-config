@@ -5,7 +5,6 @@ return {{
   dependencies = {
     'nvim-lua/plenary.nvim',
 
-
     'nvim-telescope/telescope.nvim', -- for 2 Lean-specific pickers
     'andymass/vim-matchup',          -- for enhanced % motion behavior
     'andrewradev/switch.vim',        -- for switch support
